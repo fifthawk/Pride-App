@@ -1,38 +1,37 @@
-.App {
+
+
+h1 {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text;
+  color: transparent;
+  justify-items: center;
   text-align: center;
+  width: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.information {
+  background-image: url(./robin-ooode-MfhETsgQM6A-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: 50em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  background-image: url(./yoav-hornung-_FlNNNDezuw-unsplash.jpg);
+  background-size: 90em;
+  background-repeat: no-repeat;
+  height: 40em;
+  /* width: 100em; */
+  background-position: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.information:hover {
+  box-shadow: yellow 3em 3em;
+}
+
+.list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

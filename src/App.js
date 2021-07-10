@@ -1,24 +1,31 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+
+
 import './App.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+		<header>
+      <h1 className = 'headerTitle'>You are you, and we love that. Never change, love is love.</h1>
+    </header>
+    <div>
+      <div className = 'information'>
+        <p>This is a paragraph.</p>
+      </div>
+      <div className = 'list'>
+  
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+          <div>6</div>
+        
+      </div>
     </div>
+    </>
   );
 }
 
